@@ -21,7 +21,6 @@ std::ostream &operator<<(std::ostream &dest, i128t value) {
     *--pos = '0' + (uvalue % 10);
     uvalue /= 10;
   }
-
   return dest << pos;
 }
 
